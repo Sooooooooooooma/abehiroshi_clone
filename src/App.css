@@ -3,7 +3,7 @@
     display: flex;
 }
 
-.menu {
+.side_link {
   width: 200px;
   min-width: 150px;
   height: 100vh;
@@ -67,12 +67,3 @@
     color: black;
 }
 
-/* .update{
-    margin-bottom: 30px;
-} */
-
-/* .menu li::before{
-    content: "・";
-    margin-right:8px;
-    font-size: 53px;
-} */

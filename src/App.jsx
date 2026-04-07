@@ -4,12 +4,18 @@ import "./App.css";
 const App = () => {
   return (
     <div className="main-area">
-      <div>
-        <ul className="menu">
-          <li className="top">
-            <a>トップ</a>
-          </li>
-          <li className="movie_appearance">
+      <div className="side_link">
+        <p>・<span className="top">トップ</span></p>
+        <p>・映画出演</p>
+        <p>・ドラマ出演</p>
+        <p>・舞台出演</p>
+        <p>・写真集</p>
+        <p>・出版本</p>
+        <p>・管理者</p>
+        
+
+
+        {/* <li className="movie_appearance">
             <a>映画出演</a>
           </li>
           <li className="drama_appearance">
@@ -26,8 +32,7 @@ const App = () => {
           </li>
           <li className="administrator">
             <a>管理者</a>
-          </li>
-        </ul>
+          </li> */}
       </div>
 
       <div className="main">
