@@ -5,34 +5,13 @@ const App = () => {
   return (
     <div className="main-area">
       <div className="side_link">
-        <p>・<span className="top">トップ</span></p>
+        <p>・トップ</p>
         <p>・映画出演</p>
         <p>・ドラマ出演</p>
         <p>・舞台出演</p>
         <p>・写真集</p>
         <p>・出版本</p>
         <p>・管理者</p>
-        
-
-
-        {/* <li className="movie_appearance">
-            <a>映画出演</a>
-          </li>
-          <li className="drama_appearance">
-            <a>ドラマ出演</a>
-          </li>
-          <li className="stage_appearance">
-            <a>舞台出演</a>
-          </li>
-          <li className="photo">
-            <a>写真集</a>
-          </li>
-          <li className="book">
-            <a>出版本</a>
-          </li>
-          <li className="administrator">
-            <a>管理者</a>
-          </li> */}
       </div>
 
       <div className="main">
