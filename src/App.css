@@ -1,0 +1,78 @@
+
+ .main-area {
+    display: flex;
+}
+
+.menu {
+  width: 200px;
+  min-width: 150px;
+  height: 100vh;
+  background-color: #F0F0FE;
+  padding-top: 20px;
+  line-height: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /* list-style: none;
+  padding-left: 0px; */
+}
+
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.header,
+.drama_history,
+.Note
+ {
+  text-align: center;
+}
+
+
+
+.img_profile{
+    width: 350px;
+    height: auto;
+    padding-right: 10px;
+}
+
+
+.main{
+    background-image: url(https://abehiroshi.la.coocan.jp/image/abehiroshi.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    font-size: medium;
+}
+
+.drama_history_Note{
+    font-weight: bolder;
+}
+
+.red_color{
+    color: red;
+}
+
+.Latest_information{
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.dramas{
+    margin-left: 75px;
+}
+
+.black_color{
+    color: black;
+}
+
+/* .update{
+    margin-bottom: 30px;
+} */
+
+/* .menu li::before{
+    content: "・";
+    margin-right:8px;
+    font-size: 53px;
+} */
